@@ -128,10 +128,10 @@ class ChangeDetectionStore:
             if include_default_watches:
                 print("Creating JSON store at", self.datastore_path)
 
-                self.add_watch(url='http://www.quotationspage.com/random.php', tag='test')
-                self.add_watch(url='https://news.ycombinator.com/', tag='Tech news')
-                self.add_watch(url='https://www.gov.uk/coronavirus', tag='Covid')
-                self.add_watch(url='https://changedetection.io', tag='Tech news')
+                self.add_watch(url='https://www.uk.emb-japan.go.jp/itpr_en/visa-cert-top.html', tag='UK')
+                self.add_watch(url='https://www.fr.emb-japan.go.jp/itpr_fr/visas-demarches.html', tag='Paris')
+                self.add_watch(url='https://www.fr.emb-japan.go.jp/itpr_fr/restrictionsdentree2021.html', tag='Paris')
+                self.add_watch(url='https://www.lyon.fr.emb-japan.go.jp/itpr_fr/info_visa.html', tag='Lyon')
 
         self.__data['version_tag'] = version_tag
 
